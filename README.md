@@ -40,7 +40,7 @@ Cada carpeta en este repositorio corresponde a una clase específica del program
 ¿Encontraste un error? ¿Tienes una sugerencia? ¡Tu feedback es muy valioso! Puedes contactarme a través de:
 
 - [YouTube](https://www.youtube.com/@gonzaarancibia)
-- [Instagram] (https://www.instagram.com/gonza.arancibiaa)
+- [Instagram](https://www.instagram.com/gonza.arancibiaa)
 
 ## ⚠️ Importante
 Este repositorio está diseñado para aprendizaje. Si quieres contribuir o reportar problemas:
