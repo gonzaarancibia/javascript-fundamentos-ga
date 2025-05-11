@@ -54,6 +54,6 @@ Este proyecto está bajo la Licencia MIT. Siéntete libre de usar el código par
 
 ⭐ Si este contenido te gustó, no olvides dejar una estrella en el repositorio y seguirme en mis redes sociales.
 - [YouTube](https://www.youtube.com/@gonzaarancibia)
-- [Instagram] (https://www.instagram.com/gonza.arancibiaa)
+- [Instagram](https://www.instagram.com/gonza.arancibiaa)
 
 ¡With love, by Gonza! 🚀
