@@ -2,7 +2,9 @@
 ¡Bienvenido a la primera clase del curso de Fundamentos de JavaScript! En esta clase nos sumergiremos en los conceptos básicos del lenguaje.
 
 ## 📺 Video de la Clase
+
 Puedes ver la clase completa aquí: [Clase 1 - Introducción a JavaScript](https://youtu.be/ULT6DUWaqKE)
+
 
 ## ⚠️ Importante
 Para esta clase, te pido que NO 👊 uses Inteligencia Artificial (como ChatGPT o similares). El objetivo es que aprendas a:
