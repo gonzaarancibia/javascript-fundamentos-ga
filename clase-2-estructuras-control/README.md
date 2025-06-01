@@ -2,7 +2,7 @@
 ¡Bienvenido a la segunda clase del curso de Fundamentos de JavaScript! En esta clase trabajaremos con las principales estructuras de control del lenguaje.
 
 ## 📺 Video de la Clase
-Puedes ver la clase completa aquí: [Clase 2 - Estructuras de Control en JavaScript]([https://www.youtube.com/playlist?list=PLYZyWR8tch4ZV5B81KjZMbqH0WGTqw-1y](https://www.youtube.com/watch?v=ZkL-cJT-uKI))
+Puedes ver la clase completa aquí: [Clase 2 - Estructuras de Control en JavaScript](https://www.youtube.com/watch?v=ZkL-cJT-uKI)
 
 ## 📚 Recursos Oficiales
 Para resolver los ejercicios, te recomendamos consultar:
