@@ -29,15 +29,58 @@ Cada carpeta en este repositorio corresponde a una clase específica del program
 - Lee el README de cada clase cuidadosamente
 - Completa los ejercicios siguiendo las instrucciones
 - Ejecuta las pruebas para verificar tus soluciones
+- No modifiques los archivos de configuracion de proyecto como package.json, package.lock.json, tests, etc.
 
+## ⚙️ Configuración Recomendada
+
+### 🎯 Modo Aprendizaje: Sin Autocompletado
+
+Para garantizar un aprendizaje más efectivo de JavaScript, recomiendo escribir el código sin ayuda de herramientas de autocompletado como GitHub Copilot o las sugerencias de VSCode.
+
+### 🔧 Configuración Automática
+Este repositorio incluye una configuración predeterminada que desactiva el autocompletado en VSCode. Al abrir el proyecto, VSCode te preguntará si deseas aplicar esta configuración. Solo acepta el mensaje para activar el modo aprendizaje.
+
+### 🛠️ Configuración Manual
+Si prefieres configurarlo manualmente:
+
+1. Abre la paleta de comandos en VSCode:
+   - Mac: `Cmd + Shift + P`
+   - Windows/Linux: `Ctrl + Shift + P`
+
+2. Escribe: "Preferencias: Abrir configuración (JSON)"
+
+3. Agrega esta configuración:
+```json
+{
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.parameterHints.enabled": false,
+  "editor.wordBasedSuggestions": false,
+  "editor.inlineSuggest.enabled": false
+}
+```
+
+### ⚠️ Nota sobre GitHub Copilot
+Si tienes GitHub Copilot instalado, te recomiendo desactivarlo temporalmente durante el curso. El objetivo es que desarrolles tus habilidades de programación sin depender de la IA.
+
+### 🎓 ¿Por qué esta configuración?
+- Mejora tu comprensión del lenguaje
+- Fortalece tu memoria muscular al escribir código
+- Desarrolla tu capacidad de resolución de problemas
+- Te hace menos dependiente de herramientas de autocompletado
 
 ## 🚀 Recomendaciones
 - Sigue el orden de las clases
 - Lee siempre el README de cada carpeta antes de comenzar
 - Intenta resolver los ejercicios por tu cuenta antes de ver las soluciones
 - No dudes en experimentar y probar diferentes aproximaciones
+  
 ## 🤝 Contribuciones y Feedback
-¿Encontraste un error? ¿Tienes una sugerencia? ¡Tu feedback es muy valioso! Puedes contactarme a través de:
+¿Encontraste un error? ¿Tienes una sugerencia? ¡Tu feedback es muy valioso! Dejá un comentario en la clase, o puedes contactarme a través de:
 
 - [YouTube](https://www.youtube.com/@gonzaarancibia)
 - [Instagram](https://www.instagram.com/gonza.arancibiaa)
