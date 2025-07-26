@@ -16,9 +16,11 @@
 
 // 👉 Paso 1: Declarar una variable llamada "nombre" y asignarle tu nombre.
 
+let nombre = "williams";
 
 // 👉 Paso 2: Mostrar en consola el valor de "nombre".
-// console.log(nombre);
+console.log(nombre);
+
 
 //--------------------------------------------------
 // 2. Reasignación de variables
@@ -26,7 +28,11 @@
 
 // 👉 Paso 3: Cambiá el valor de "nombre" por otro nombre.
 
+nombre = "pedro";
+
 // 👉 Paso 4: Mostrá nuevamente el valor actualizado.
+
+console.log(nombre);
 
 
 //--------------------------------------------------
@@ -35,7 +41,10 @@
 
 // 👉 Paso 5: Declarar una constante llamada "edad" y asignarle tu edad.
 
+const edad = 19;
+
 // 👉 Paso 6: Intentá cambiar el valor de "edad" (¿Qué ocurre? Probalo descomentando la línea).
+
 
 //--------------------------------------------------
 // 4. Buenas prácticas en nombres de variables
@@ -97,3 +106,4 @@
 //--------------------------------------------------
 // - ¿Cuándo te conviene usar const en lugar de let?
 // - ¿Qué pasa si no le das un valor inicial a una variable?
+
