@@ -161,6 +161,18 @@ console.log(caracteristicaObjeto, caracteristicaBoolean);
 
      //undefined es el valor predeterminado para variables no inicializadas, 
      // mientras que null se asigna explícitamente para representar la ausencia de valor.
-      
+
 // - ¿Por qué typeof null devuelve "object"? (Investigá sobre este "bug" histórico)
+
+     //Este fue un error en la implementación original de JavaScript y 
+     // se ha mantenido para no romper el código existente en la web. 
+     //En los primeros motores de JavaScript, los tipos de datos se representaban mediante etiquetas de tipo de 32 bits.
+     //La etiqueta para null se configuró para que coincidiera con la de un objeto, lo que provocó que typeof null devolviera "object".
+
 // - ¿En qué situaciones usarías un array y en cuáles un objeto?
+
+  //Usaria un array cuando necesitaria recorre o acceder a una lista de lementos por ejemplo una lista
+  //de nombres de personas.
+
+  //Usaria un Objeto para poder crear datos con estructuras especificas y unicas, por ejemplo si necesito crear una
+  //persona con sus diferentes caracteristicas o un vehiculo con sus caracteristicas.
