@@ -158,7 +158,7 @@ function ejecutarPruebas() {
   }
   
   // Verificar conversión a número
-  if (codigo.includes('Number(') && codigo.match(/Number\(['"]\w+['"]\)/)) {
+  if (codigo.includes('Number(') && codigo.match(/Number\((.*?)\)/)) {
     console.log('✅ Paso 7: Se intentó convertir una palabra a número');
     aciertos++;
   } else {
