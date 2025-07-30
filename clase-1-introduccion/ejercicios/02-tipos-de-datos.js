@@ -23,7 +23,7 @@ let esEstudiante = true;
 
 // 👉 Paso 4: Crear una variable "direccion" sin valor (undefined)
 
-let direccion 
+let direccion;
 
 // 👉 Paso 5: Crear una variable "nulo" con valor null
 
@@ -31,19 +31,25 @@ let nulo = null;
 
 // 👉 Paso 6: Mostrá en consola el tipo de cada variable usando typeof
 
-console.log(typeof nombre, edad, esEstudiante, direccion, nulo);    
-    
+console.log("Tipo string", typeof nombre);    
+console.log("Tipo number", typeof edad); 
+console.log("Tipo boolean", typeof esEstudiante); 
+console.log("Tipo undefined", typeof direccion); 
+console.log("Tipo null", typeof nulo); 
 //--------------------------------------------------
 // 2. Tipo NaN (Not a Number)
 //--------------------------------------------------
 
 // 👉 Paso 7: Intentá convertir una palabra a número usando Number()
 
-let Number = "123";
+let palabra = "gato";           
+let convertido = Number(palabra); 
+
+console.log(convertido);          
 
 // 👉 Paso 8: Mostrá en consola si el resultado es NaN usando isNaN()
 
-   //NO ME SALE NaN POR CONSOLA...SALE 123
+console.log("¿Es NaN?:", isNaN(convertido)); 
 
 //--------------------------------------------------
 // 3. Tipos de datos complejos
@@ -112,13 +118,13 @@ console.log(numero === texto);
 
 // 👉 Paso 17: ¿Qué tipo de dato usarías para guardar el precio de un producto?
 // const tipoPrecioProducto = 'string'
-// const tipoPrecioProducto = 'number'
+ const tipoPrecioProducto = 'number'
 // const tipoPrecioProducto = 'boolean'
 
 // 👉 Paso 18: ¿Qué estructura usarías para representar los datos de un formulario de contacto?
 // const estructuraFormulario = 'array'
-// const estructuraFormulario = 'objeto'
- const estructuraFormulario = 'number'
+const estructuraFormulario = 'objeto'
+//const estructuraFormulario = 'number'
 
 //--------------------------------------------------
 // 6. Características de tipos de datos - Descomentá la opción correcta
