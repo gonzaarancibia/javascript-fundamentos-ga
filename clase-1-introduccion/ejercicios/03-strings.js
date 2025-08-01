@@ -86,3 +86,4 @@ function capitalizar(texto) {
 
 console.log(capitalizar("gonzalo"));
 
+//habia subido mal, puse ejercicios variables terminado, y hera jercicios STRINGS terminados gonza.
