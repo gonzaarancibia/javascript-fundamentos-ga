@@ -10,13 +10,17 @@
 //--------------------------------------------------
 
 // 👉 Paso 1: Convertir un número a string usando String()
-// let numero = 
-// let numeroComoTexto = 
-
+ let numero = 123;
+ let numeroComoTexto = String(numero);
+console.log(typeof numero);
+console.log(typeof numeroComoTexto); 
 
 // 👉 Paso 2: Convertir un string de numeros a número usando Number()
-//  let texto = 
-//  let textoComoNumero = 
+let texto = "123";
+let textoComoNumero = Number(texto);
+
+console.log(textoComoNumero); 
+console.log(typeof textoComoNumero); 
 
 // 👉 Paso 3: Mostrar los tipos con typeof
 
@@ -26,9 +30,12 @@
 //--------------------------------------------------
 
 // 👉 Paso 4: Convertir un string que NO es un número y ver qué pasa
-//  let textoInvalido = 
-//  let resultado =
-//  console.log(resultado) // ¿Qué muestra?
+let textoInvalido = "hola mundo"; 
+let resultado = parseInt(textoInvalido);
+
+console.log(resultado); // ¿Qué muestra?
+
+//muestra NaN  "Not a Number" (No es un Número)
 
 // 👉 Paso 5: Convertir un valor booleano a número
 //  let valorBooleano =

@@ -56,7 +56,7 @@ console.log(Math.round(9.7));
 
 // 👉 Paso 6: Usa un método de Math que sea distinto a .round para redondear 9.2 al entero más cercano
 
-console.log(Math.floor(9.7));
+console.log(Math.floor(9.2));
 
 // 👉 Paso 7: Usa un método de Math para encontrar el valor máximo entre 15, 7 y 23
 
@@ -88,14 +88,16 @@ console.log(numeroAleatorio);
 
 // 👉 Paso 12: Genera un número aleatorio entre 50 y 100 (ambos inclusive)
 
-function getRandomInt(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
+function generarNumeroAleatorio() {
+  const min = 50;
+  const max = 100;
+
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-let numeroAleatorio1 = getRandomInt(50, 100);
-console.log(numeroAleatorio1);
+const numeroAleatorio1 = generarNumeroAleatorio();
+console.log(numeroAleatorio1);  
+
 
 // 👉 Paso 13: Simula el lanzamiento de una moneda (0 = cara, 1 = cruz)
 // Pista: Usa Math.round y Math.random
