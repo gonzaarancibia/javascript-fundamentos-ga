@@ -10,7 +10,7 @@
 //--------------------------------------------------
 
 // 👉 Paso 1: Declará una variable llamada 'edad' con un valor numérico
-// let edad =
+// let edad = 33
 
 // 👉 Paso 2: Usá una estructura condicional para verificar si la persona es mayor de edad
 // Si es mayor de edad, hacé un console.log que muestre "Es mayor de edad"

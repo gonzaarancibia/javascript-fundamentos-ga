@@ -10,8 +10,9 @@
 //--------------------------------------------------
 
 // 👉 Paso 1: Declará dos variables con los siguientes valores:
-// let numero = 10;
+ let numero = 10;
 // let textoNumero = "10";
+console.log(numero);
 
 // 👉 Paso 2: Compará las variables usando igualdad simple (que no verifica el tipo de dato)
 // Completá la siguiente línea:
