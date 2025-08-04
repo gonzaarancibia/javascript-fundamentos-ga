@@ -107,7 +107,7 @@ console.log("¿La calificación es aprobatoria? " + esAprobatoria);
 
 
 // 👉 Paso 18: Descomenta la opción correcta sobre las expresiones booleanas:
- let explicacionBooleanas;
+ //let explicacionBooleanas;
 // explicacionBooleanas = "Las expresiones de comparación siempre devuelven un valor numérico";
 // explicacionBooleanas = "Las expresiones de comparación siempre devuelven un valor booleano (true o false)";
 // explicacionBooleanas = "Las expresiones de comparación solo funcionan con el operador ===";
