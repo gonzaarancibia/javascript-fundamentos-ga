@@ -107,9 +107,9 @@ console.log("¿La calificación es aprobatoria? " + esAprobatoria);
 
 
 // 👉 Paso 18: Descomenta la opción correcta sobre las expresiones booleanas:
- //let explicacionBooleanas;
+ let explicacionBooleanas;
 // explicacionBooleanas = "Las expresiones de comparación siempre devuelven un valor numérico";
-// explicacionBooleanas = "Las expresiones de comparación siempre devuelven un valor booleano (true o false)";
+ explicacionBooleanas = "Las expresiones de comparación siempre devuelven un valor booleano (true o false)";
 // explicacionBooleanas = "Las expresiones de comparación solo funcionan con el operador ===";
 // console.log("Sobre las expresiones booleanas:", explicacionBooleanas);
 
@@ -118,7 +118,7 @@ console.log("¿La calificación es aprobatoria? " + esAprobatoria);
 //--------------------------------------------------
 
 // 👉 Paso 19: Creá dos objetos Date, uno con la fecha actual y otro con una fecha futura
-//  let fechaActual = new Date();
+  let fechaActual = new Date();
 // let fechaFutura = new Date(2026, 0, 1); // 1 de enero de 2026
 
 // 👉 Paso 20: Compará si la fecha actual es anterior a la fecha futura
