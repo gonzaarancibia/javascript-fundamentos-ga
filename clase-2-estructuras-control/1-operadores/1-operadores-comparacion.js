@@ -15,11 +15,11 @@
  
 // 👉 Paso 2: Compará las variables usando igualdad simple (que no verifica el tipo de dato)
 // Completá la siguiente línea:
- let comparacionSimple = (numero == textoNumero);
+ let comparacionSimple = numero == textoNumero;
 
 // 👉 Paso 3: Compará las variables usando igualdad estricta (que sí verifica el tipo de dato)
 // Completá la siguiente línea:
- let comparacionEstricta = (numero === textoNumero);
+ let comparacionEstricta = numero === textoNumero;
 
 // 👉 Paso 4: Mostrá ambos resultados en consola y explicá la diferencia en un comentario
 console.log(comparacionSimple);
@@ -40,10 +40,10 @@ let explicacionIgualdadSimple;
 //--------------------------------------------------
 
 // 👉 Paso 6: Usando las mismas variables, compará usando desigualdad simple (que no verifica el tipo)
- let desigualdadSimple = (numero != textoNumero);
+ let desigualdadSimple = numero != textoNumero;
 
 // 👉 Paso 7: Compará usando desigualdad estricta (que sí verifica el tipo)
-  let desigualdadEstricta = (numero !== textoNumero);
+  let desigualdadEstricta = numero !== textoNumero;
 
 // 👉 Paso 8: Mostrá ambos resultados en consola
 console.log(desigualdadSimple);
@@ -68,13 +68,11 @@ console.log(desigualdadEstricta);
 // 👉 Paso 11: Verificá si tu edad es mayor o igual que la edad mínima
  let puedoConducir = miEdad >= edadMinima;
 
-console.log(puedoConducir);
-
 // 👉 Paso 12: Verificá si tu edad es menor que la edad mínima
- let necesitoCumplirAnios = miEdad <= edadMinima;
+ let necesitoCumplirAnios = miEdad < edadMinima;
 
 // 👉 Paso 13: Mostrá ambos resultados en consola
-console.log(necesitoCumplirAnios);
+console.log(puedoConducir, necesitoCumplirAnios);
 
 // 👉 Paso 14: Descomenta la opción correcta sobre los operadores de comparación:
  let explicacionComparadores;
@@ -91,19 +89,19 @@ console.log(necesitoCumplirAnios);
  let calificacion = 7.5;
 
 // 👉 Paso 16: Creá variables booleanas que indiquen:
-//- Si la calificación es aprobatoria (mayor o igual a 7)
-  let esAprobatoria = calificacion >= 7;
-// - Si la calificación es perfecta (igual a 10)
-  let esPerfecta = calificacion === 10;
-// - Si la calificación es insuficiente (menor a 7)
-  let esInsuficiente = calificacion < 7;
 
- //let esAprobatoria = true;
-// let esPerfecta = 
-// let esInsuficiente = 
+//- Si la calificación es aprobatoria (mayor o igual a 7)
+ 
+// - Si la calificación es perfecta (igual a 10)
+
+// - Si la calificación es insuficiente (menor a 7)
+
+ let esAprobatoria = calificacion >= 7;
+ let esPerfecta = calificacion === 10;
+ let esInsuficiente = calificacion < 7;
 
 // 👉 Paso 17: Mostrá los resultados en consola
-console.log("¿La calificación es aprobatoria? " + esAprobatoria); 
+console.log("¿La calificación es aprobatoria? " + esAprobatoria, esPerfecta, esInsuficiente); 
 
 
 // 👉 Paso 18: Descomenta la opción correcta sobre las expresiones booleanas:
@@ -119,7 +117,9 @@ console.log("¿La calificación es aprobatoria? " + esAprobatoria);
 
 // 👉 Paso 19: Creá dos objetos Date, uno con la fecha actual y otro con una fecha futura
   let fechaActual = new Date();
-// let fechaFutura = new Date(2026, 0, 1); // 1 de enero de 2026
+  let fechaFutura = new Date(2026, 0, 1); // 1 de enero de 2026
 
 // 👉 Paso 20: Compará si la fecha actual es anterior a la fecha futura
-// let esAnterior =
+ let esAnterior = fechaActual <= fechaFutura;
+
+console.log(esAnterior);
