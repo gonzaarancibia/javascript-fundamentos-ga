@@ -8,7 +8,7 @@
 //--------------------------------------------------
 // 1. Sintaxis básica del operador ternario
 //--------------------------------------------------
-console.log("voy a llegar falta poco");
+
 // 👉 Paso 1: Declará una variable con tu edad
 //  let edad = 25; // Cambiá este valor por tu edad real
 
