@@ -54,4 +54,4 @@ console.log(typeof funcionSaludar); // "function"
 
 //1. Arrays y Objetos: En JavaScript, un array es considerado un tipo de 'object'. Por lo tanto, typeof devuelve "object" para ambos.
 // 2. Null: El resultado "object" para null es un error histórico y un bug del lenguaje que ha permanecido por
-//  razones de compatibilidad. Para verificar null, es mejor usar la comparación estricta (variable === null).
+//razones de compatibilidad. Para verificar null, es mejor usar la comparación estricta (variable === null).
