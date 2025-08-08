@@ -4,7 +4,7 @@
 // - Leé cada paso con atención y escribí tu código donde se indica.
 // - Usá `console.log()` para mostrar los resultados.
 // - Ejecutá este archivo con el comando: node 2-condicionales.js
-
+console.log("lo que hagas en vida resonara en la eternidad");
 //--------------------------------------------------
 // 1. Condicional simple
 //--------------------------------------------------
