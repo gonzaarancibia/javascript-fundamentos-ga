@@ -10,12 +10,14 @@ console.log("lo que hagas en vida resonara en la eternidad");
 //--------------------------------------------------
 
 // 👉 Paso 1: Declará una variable llamada 'edad' con un valor numérico
-// let edad = 33
+let edad = 33
 
 // 👉 Paso 2: Usá una estructura condicional para verificar si la persona es mayor de edad
 // Si es mayor de edad, hacé un console.log que muestre "Es mayor de edad"
 // Escribe tu código aquí
-
+if (edad >= 18) {
+  console.log("Es mayor de edad");
+}
 
 
 //--------------------------------------------------
@@ -26,8 +28,14 @@ console.log("lo que hagas en vida resonara en la eternidad");
 // Si es menor de edad, hacé un console.log que muestre "Es menor de edad"
 // Si no, hacé un console.log que muestre "Es mayor de edad"
 // Escribe tu código aquí
+let edades = 20
 
+if (edades < 18){
 
+console.log("Es menor de edad")
+}else { 
+  console.log("Es mayor")
+}
 //--------------------------------------------------
 // 3. Condicional con else if
 //--------------------------------------------------
