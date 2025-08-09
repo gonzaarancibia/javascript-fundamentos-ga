@@ -56,4 +56,4 @@ for (let clave in persona) {
   contador++;
 }
 
-console.log(`El objeto persona tiene ${contador} propiedades`);
+console.log(contador);

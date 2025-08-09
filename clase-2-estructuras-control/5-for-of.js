@@ -41,17 +41,16 @@ for (let letra of palabra) {
 
 // 👉 Paso 5: Declarar un array llamado 'numeros' con al menos 5 números
  let numeros = [10, 20, 30, 40, 50];
-contador = sumaTotal++
+
 // 👉 Paso 6: Usá un bucle for...of para sumar todos los números y mostrar el resultado
 // Usá console.log para mostrar el resultado de la suma
 // Escribe tu código aquí
-let sumaTotal = 0;
+let suma = 0;
 
 for (let numero of numeros) {
-   sumaTotal = sumaTotal + numero;
+   suma = suma + numero;
 }
-
-console.log(sumaTotal);
+console.log(suma);
 //--------------------------------------------------
 // 4. Buscar un elemento en un array con for...of
 //--------------------------------------------------
