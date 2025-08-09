@@ -10,11 +10,18 @@
 //--------------------------------------------------
 
 // 👉 Paso 1: Declarar un objeto llamado 'persona' con al menos 3 propiedades (por ejemplo: nombre, edad, ciudad)
-// let persona =
+let persona = {
+  nombre: "Juan",
+  edad: 30,
+  ciudad: "Buenos Aires"
+};
 
 // 👉 Paso 2: Usá un bucle for...in para mostrar cada clave del objeto en consola
 // Usá console.log para mostrar cada clave
 // Escribe tu código aquí
+for (let clave in persona) {
+  console.log(clave);
+}
 
 //--------------------------------------------------
 // 2. Iterar los valores de un objeto
@@ -23,7 +30,9 @@
 // 👉 Paso 3: Usá un bucle for...in para mostrar cada valor del objeto 'persona' en consola
 // Usá console.log para mostrar cada valor
 // Escribe tu código aquí
-
+for (let clave in persona) {
+  console.log(persona[clave]);
+}
 //--------------------------------------------------
 // 3. Mostrar clave y valor juntos
 //--------------------------------------------------
@@ -31,7 +40,9 @@
 // 👉 Paso 4: Usá un bucle for...in para mostrar en consola la clave y el valor juntos, por ejemplo: "nombre: Juan"
 // Usá console.log para mostrar la clave y el valor en el formato indicado
 // Escribe tu código aquí
-
+for (let clave in persona) {
+  console.log(`${clave}: ${persona[clave]}`);
+}
 //--------------------------------------------------
 // 4. Contar propiedades de un objeto
 //--------------------------------------------------
@@ -39,3 +50,10 @@
 // 👉 Paso 5: Usá un bucle for...in para contar cuántas propiedades tiene el objeto 'persona' y mostrar el resultado
 // Usá console.log para mostrar la cantidad de propiedades
 // Escribe tu código aquí
+let contador = 0;
+
+for (let clave in persona) {
+  contador++;
+}
+
+console.log(`El objeto persona tiene ${contador} propiedades`);
