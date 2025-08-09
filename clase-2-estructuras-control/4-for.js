@@ -54,12 +54,11 @@ let frutas = ["manzana", "banana", "naranja", "uva"];
 // 👉 Paso 5: Usá un bucle for para mostrar cada fruta del array en consola
 // Usá console.log para mostrar cada fruta
 // Escribe tu código aquí
-let frutas1 = ["manzana", "banana", "naranja", "uva"];
-
-// Bucle for para recorrer y mostrar cada fruta
 for (let i = 0; i < frutas.length; i++) {
   console.log(frutas[i]);
 }
+
+// Bucle for para recorrer y mostrar cada fruta
 
 
 //--------------------------------------------------
@@ -70,10 +69,9 @@ for (let i = 0; i < frutas.length; i++) {
 // Si la encontrás, hacé un console.log que muestre "¡Manzana encontrada!" y termina el bucle.
 // Si no está, no muestra nada.
 // Escribe tu código aquí
-let frutass = ["pera", "banana", "manzana", "uva"];
 
 for (let i = 0; i < frutass.length; i++) {
-  if (frutass[i] === "manzana") {
+  if (frutas[i] === "manzana") {
     console.log("¡Manzana encontrada!");
     break; 
   }
