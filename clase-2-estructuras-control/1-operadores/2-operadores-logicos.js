@@ -11,70 +11,71 @@
 //--------------------------------------------------
 
 // 👉 Paso 1: Declará las siguientes variables:
-// let esMayorDeEdad = true;
-// let tieneLicencia = false;
+let esMayorDeEdad = true;
+let tieneLicencia = false;
 
 // 👉 Paso 2: Usá el operador para verificar si la persona es mayor de edad Y tiene licencia
-// let puedeConducir = 
+let puedeConducir = esMayorDeEdad && tieneLicencia;
 
 // 👉 Paso 3: Mostrá el resultado en consola
 
-
+console.log(puedeConducir);
 //--------------------------------------------------
 // 2. Operador OR (||)
 //--------------------------------------------------
 
 // 👉 Paso 4: Declará las siguientes variables:
-// let tieneEfectivo = false;
-// let tieneTarjeta = true;
+let tieneEfectivo = false;
+let tieneTarjeta = true;
 
 // 👉 Paso 5: Usá el operador para verificar si la persona puede pagar (con efectivo o tarjeta)
-// let puedePagar = 
+let puedePagar = tieneEfectivo || tieneTarjeta;
 
 // 👉 Paso 6: Mostrá el resultado en consola
-
+console.log(puedePagar);
 
 //--------------------------------------------------
 // 3. Operador NOT/NEGACION (!)
 //--------------------------------------------------
 
 // 👉 Paso 7: Declará la siguiente variable:
-// let esFinDeSemana = false;
+let esFinDeSemana = false;
 
 // 👉 Paso 8: Usá el operador para invertir el valor de la variable
-// let esDiaLaboral = 
+let esDiaLaboral = !esFinDeSemana;
+
 
 // 👉 Paso 9: Mostrá el resultado en consola
-
+console.log(esDiaLaboral);
 //--------------------------------------------------
 // 4. Combinación de operadores lógicos
 //--------------------------------------------------
 
 // 👉 Paso 10: Declará las siguientes variables:
-// let tieneReserva = false;
-// let esSocio = true;
-// let hayLugarDisponible = true;
+let tieneReserva = false;
+let esSocio = true;
+let hayLugarDisponible = true;
 
 // 👉 Paso 11: Verificá si la persona puede ingresar al restaurante:
 // - Debe tener reserva o ser socio
 // - Y debe haber lugar disponible
 // Pista: Usa () para agrupar condiciones
-// let puedeIngresar =
+let puedeIngresar = (tieneReserva || esSocio) && hayLugarDisponible;
 
 // 👉 Paso 12: Chequea el resultado en consola
-
+console.log(puedeIngresar);
 
 //--------------------------------------------------
 // 5. Aplicación práctica: Sistema de autenticación
 //--------------------------------------------------
 
 // 👉 Paso 13: Declará las siguientes variables para un sistema de login:
-// let usuarioIngresado = "usuario123";
-// let contrasenaIngresada = "clave456";
-// let usuarioCorrecto = "usuario123";
-// let contraseniaCorrecta = "clave456";
-// let intentosRestantes = 3;
-// let cuentaBloqueada = false;
+let usuarioIngresado = "usuario123";
+let contrasenaIngresada = "clave456";
+let usuarioCorrecto = "usuario123";
+let contraseniaCorrecta = "clave456";
+let intentosRestantes = 3;
+let cuentaBloqueada = false;
 
 // 👉 Paso 14: Verificá si el login es exitoso:
 // - El usuario y contraseña deben coincidir con los correctos
@@ -86,18 +87,20 @@
 // Pista: Verifica que cuentaBloqueada sea verdadero
 // Pista: Verifica que intentosRestantes sea mayor a 0
 // Pista: Puedes usar () para agrupar condiciones
-// let loginExitoso = 
+let loginExitoso = (usuarioIngresado === usuarioCorrecto && contrasenaIngresada === contraseniaCorrecta) && !cuentaBloqueada && intentosRestantes > 0;
 
 // 👉 Paso 15: Mostrá el resultado en consola
 
+console.log(loginExitoso);
 
 //--------------------------------------------------
 // 6. Desafío: Evaluación de cortocircuito
 //--------------------------------------------------
 
 // 👉 Paso 16: Declará las siguientes variables:
-// let nombre = "";
-// let nombrePredeterminado = "Invitado";
+ let nombre = "";
+ let nombrePredeterminado = "Invitado";
 
 // 👉 Paso 17: Usá un operador para asignar nombrePredeterminado si nombre está vacío
-// let nombreMostrado = 
+ let nombreMostrado = nombre || nombrePredeterminado;
+console.log(nombreMostrado); 
