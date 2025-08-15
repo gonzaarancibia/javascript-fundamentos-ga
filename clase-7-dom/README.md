@@ -1,11 +1,11 @@
-*# Clase X - DOM y Manipulación de Elementos 🌐🖱️
+# Clase 7 - DOM y Manipulación de Elementos 🌐🖱️
 
 ¡Bienvenido a esta clase sobre **DOM en JavaScript**!  
 
 
 ## 📺 Video de la Clase
 
-Puedes ver la clase completa aquí: [Clase 7 - Manipulación del DOM en JavaScript]()
+Puedes ver la clase completa aquí: [Clase 7 - Manipulación del DOM en JavaScript](https://youtu.be/c5wHjl3c3Wg)
 
 En este módulo aprenderás qué es el DOM, cómo seleccionarlo y modificarlo, cómo manejar eventos, crear/eliminar elementos dinámicamente, consumir datos de APIs y almacenar información en el navegador.
 
