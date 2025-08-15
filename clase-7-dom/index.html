@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicios DOM</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <!-- Título principal -->
+        <h1 id="titulo">Lista de Compras</h1>
+
+        <!-- Lista de elementos -->
+        <ul id="lista-compras">
+            <li class="item">Leche</li>
+            <li class="item">Huevos</li>
+            <li class="item">Arroz</li>
+        </ul>
+
+        <!-- Botón para eventos -->
+        <button id="btn-cambiar-fondo">Cambiar color de fondo</button>
+
+        <!-- Enlace para probar preventDefault -->
+        <p><a href="https://google.com" id="link-google" target="_blank">Ir a
+                Google</a></p>
+
+        <!-- Mini formulario -->
+        <form id="form-ejemplo">
+            <h2 id="titulo-form">Formulario de Contacto</h2>
+            <label for="nombre" id="label-nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="email" id="label-email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <!-- Conexión con el JS -->
+        <script src="dom.js"></script>
+
+    </body>
+</html>
