@@ -13,33 +13,49 @@
 // - marca: "Toyota"
 // - modelo: "Corolla"
 // - año: 2020
+let auto = {
+  marca: "Toyota",
+  modelo: "Corolla",
+  "año": 2020
+};
 
 // 👉 Paso 2: Mostrá en consola la marca y el modelo del auto usando notación de punto.
-
+console.log(`Marca: ${auto.marca}, Modelo: ${auto.modelo}`);
 //--------------------------------------------------
 // 2. Modificación y acceso dinámico
 //--------------------------------------------------
 
 // 👉 Paso 3: Cambiá el valor de la propiedad 'año' del auto a 2023.
-
+auto["año"] = 2023; 
 // 👉 Paso 4: Agregá una nueva propiedad llamada 'color' con el valor "rojo" usando notación de corchetes.
-
+auto["color"] = "rojo";
 // 👉 Paso 5: Eliminá la propiedad 'modelo' del objeto auto.
-
+delete auto.modelo;
 //--------------------------------------------------
 // 3. Algoritmos y funciones con objetos
 //--------------------------------------------------
 
 // 👉 Paso 6: Creá una función llamada 'crearLibro' que reciba título, autor y año, y retorne un objeto libro con esas propiedades.
-
+function crearLibro(titulo, autor, anio){
+   return { titulo, autor, "año": anio };
+}
 
 // 👉 Paso 7: Creá una función llamada 'actualizarPropiedad' que reciba un objeto, el nombre de una propiedad y un nuevo valor, y actualice esa propiedad en el objeto.
-
+function actualizarPropiedad(objeto, propiedad, nuevoValor) {
+  objeto[propiedad] = nuevoValor;
+  return objeto; // 
+}
 
 // 👉 Paso 8: Creá una función llamada 'eliminarPropiedad' que reciba un objeto y el nombre de una propiedad, y elimine esa propiedad del objeto.
-
+function eliminarPropiedad(objeto, propiedad) {
+  delete objeto[propiedad];
+  return objeto;
+ }
 
 // 👉 Paso 9: Creá una función llamada 'contarPropiedades' que reciba un objeto y retorne la cantidad de propiedades que tiene.
+function contarPropiedades(objeto) {
+  return Object.keys(objeto).length;
+}
 
 
 //--------------------------------------------------
@@ -51,14 +67,14 @@
 // Opción A: obj[propiedad]
 // Opción B: obj.propiedad
 // Opción C: Ambas son correctas
-let respuestaObj1 = '';
+let respuestaObj1 = 'C';
 
 // 👉 Paso 11: Seleccioná la opción correcta sobre cómo eliminar una propiedad de un objeto:
 // Guardá la letra de la opción correcta en la variable 'respuestaObj2'.
 // Opción A: delete obj.propiedad
 // Opción B: obj.eliminar(propiedad)
 // Opción C: obj.propiedad = null
-let respuestaObj2 = '';
+let respuestaObj2 = 'A';
 
 //--------------------------------------------------
 // 5. Práctica combinada
@@ -71,8 +87,40 @@ let respuestaObj2 = '';
 // 3. Eliminar la propiedad 'autor' del libro usando la función eliminarPropiedad.
 // 4. Contar cuántas propiedades tiene el libro usando la función contarPropiedades.
 // Mostrá los resultados en consola.
+function crearLibro(titulo, autor, anio) {
+  return { titulo, autor, "año": anio };
+}
 
-// No modifiques el código debajo de este comentario
+function actualizarPropiedad(objeto, propiedad, nuevoValor) {
+  objeto[propiedad] = nuevoValor;
+  return objeto;
+}
+
+function eliminarPropiedad(objeto, propiedad) {
+  delete objeto[propiedad];
+  return objeto;
+}
+
+function contarPropiedades(objeto) {
+  return Object.keys(objeto).length;
+}
+
+const libro = crearLibro(
+  "El Principito",
+  "Antoine de Saint-Exupéry",
+  1943
+);
+
+console.log("1) Libro creado:", libro);
+actualizarPropiedad(libro, "año", 1950);
+console.log("2) Después de actualizar año:", libro);
+
+eliminarPropiedad(libro, "autor");
+console.log("3) Después de eliminar autor:", libro);
+
+const cantidad = contarPropiedades(libro);
+console.log("4) Cantidad de propiedades:", cantidad);
+
 module.exports = {
   auto,
   crearLibro,
