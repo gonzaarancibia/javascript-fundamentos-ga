@@ -10,9 +10,28 @@
 //--------------------------------------------------
 
 // 👉 Paso 1: Creá una función constructora llamada Mascota que reciba nombre y especie, y asigne esas propiedades usando this.
+function Mascota(nombre, especie) {
 
+  if (!(this instanceof Mascota)) return new Mascota(nombre, especie);
+  this.nombre = nombre;
+  this.especie = especie;
+}
 
 // 👉 Paso 2: Usá la función constructora para crear dos mascotas: 'mascota1' (nombre: "Luna", especie: "perro") y 'mascota2' (nombre: "Milo", especie: "gato").
+function Mascota(nombre, especie) {
+  if (!(this instanceof Mascota)) return new Mascota(nombre, especie);
+  this.nombre = nombre;
+  this.especie = especie;
+}
+
+Mascota.prototype.describir = function() {
+  return `${this.nombre} es un/a ${this.especie}`;
+};
+
+// 👉 Paso 2: crear las dos mascotas solicitadas
+const mascota1 = new Mascota("Luna", "perro");
+const mascota2 = new Mascota("Milo", "gato");
+
 
 // 👉 Paso 3: Mostrá en consola el nombre y la especie de ambas mascotas.
 
