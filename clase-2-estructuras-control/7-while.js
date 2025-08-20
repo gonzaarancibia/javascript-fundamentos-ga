@@ -15,6 +15,12 @@
 // 3. Dentro del bucle, usá console.log(i) para mostrar el valor actual de 'i'.
 // 4. No olvides incrementar 'i' en cada iteración para evitar un bucle infinito.
 // Escribe tu código aquí
+let i = 1;
+while ( i <= 5){
+    console.log(i)
+    i++
+}
+
 
 //--------------------------------------------------
 // 2. Bucle while con condición
@@ -27,7 +33,11 @@
 // 4. El incremento debe ser par += 2 en cada iteración para obtener solo números pares.
 // 5. El bucle debe estar justo después de este comentario.
 // Escribe tu código aquí
-
+let par = 2;
+while (par <= 10){
+    console.log(par)
+    par += 2
+}
 //--------------------------------------------------
 // 3. Sumar números con while
 //--------------------------------------------------
@@ -40,6 +50,19 @@
 // 5. No olvides incrementar 'j' en cada iteración.
 // 6. Al finalizar el bucle, usá console.log("Suma del 1 al 10:", suma) para mostrar el resultado.
 // Escribe tu código aquí
+let suma = 0;
+let j = 1;
+
+while (j <= 10){
+    suma = suma +j
+    j++
+if (j === 10){
+
+console.log("Suma del 1 al 10:", suma)
+
+}  
+}
+
 
 //--------------------------------------------------
 // 4. Bucle do...while básico
@@ -50,7 +73,12 @@
 // 2. Escribir un bucle do...while que muestre el valor de 'k' con console.log(k) y luego lo incremente.
 // 3. El bucle debe repetirse mientras 'k' sea menor o igual a 5.
 // Escribe tu código aquí
+ let k = 1;
 
+do {
+  console.log(k);
+  k++;
+} while (k <= 5); 
 //--------------------------------------------------
 // 5. Aplicación práctica: Contar hasta un número dado
 //--------------------------------------------------
@@ -61,3 +89,10 @@
 // 3. Escribir un bucle do...while que muestre el valor de 'm' con console.log(m) y luego lo incremente.
 // 4. El bucle debe repetirse mientras 'm' sea menor o igual a 'limite'.
 // Escribe tu código aquí
+let limite = 7;
+let m = 1;
+
+do {
+  console.log(m);
+  m++;
+} while (m <= limite);
